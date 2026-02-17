@@ -434,7 +434,7 @@ body::before {
 
 /* Footer */
 .footer {
-  margin-top: 60px;
+  margin: 60px auto 0;
   padding: 24px 16px;
   border-top: 1px solid var(--border);
   text-align: center;
@@ -442,11 +442,14 @@ body::before {
   color: var(--text-dim);
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.5px;
+  width: 100%;
+  max-width: 1400px;
 }
 
 .footer-text {
   line-height: 1.8;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .footer-credit {
